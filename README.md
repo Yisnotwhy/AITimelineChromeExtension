@@ -16,7 +16,6 @@ To function correctly, the Extension saves specific user preferences and operati
 ## 3. Required Permissions and Data Handling
 The Extension requires specific browser permissions to operate. All data accessed via these permissions is handled locally:
 *   **`storage`:** Used to persistently save your bookmarked requests, responses, custom categories, user notes, and frequent prompt templates on your device.
-*   **`activeTab`:** Used to safely read the active page to extract chat context and transmit text selections when you trigger context menu actions.
 *   **`contextMenus`:** Used to add custom right-click utility options ("Quote Selection" and "Copy without format") to your browser.
 *   **`clipboardWrite`:** Used to write plain, style-free text to your system clipboard or as a fallback when inserting templates into the chat input.
 *   **Host Permissions:** Used strictly to inject the navigation sidebar, bookmark buttons, and prompt helpers directly into the supported AI chat interfaces.
